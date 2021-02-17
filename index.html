@@ -12,26 +12,26 @@
         <h1>Untuk mendapatkan card anda silahkan inputkan forum dibawah</h1>
         
         <div class="col">
-            <form action="" class="form">
+            <form onsubmit="rendercard(event)" class="form">
                 <fieldset>
                     name:<br>
-                    <input type="text"><br>
+                    <input type="text" id="name"><br>
                     job:<br>
-                    <input type="text"><br>
+                    <input type="text" id="job"><br>
                     address:<br>
-                    <input type="text"><br>
-                    <button type="submit">submit</button>
+                    <input type="text" id="address"><br>
+                    <button>submit</button>
                     <button type="reset">clear</button>
                 </fieldset>
             </form>
-            <form action="" class="form2">
+            <form class="form2">
                 <fieldset>
                     name:<br>
-                    <input type="text"><br>
+                    <input type="text" id="name"><br>
                     job:<br>
-                    <input type="text"><br>
+                    <input type="text" id="job"><br>
                     address:<br>
-                    <input type="text"><br>
+                    <input type="text" id="address"><br>
                     <button type="submit">submit</button>
                     <button type="reset">clear</button>
                 </fieldset>
@@ -40,6 +40,6 @@
 
         </div>
         
-        <script src="" async defer></script>
+        <script src="login.js"></script>
     </body>
 </html>
