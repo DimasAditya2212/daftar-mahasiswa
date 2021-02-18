@@ -7,14 +7,16 @@ function rendercard(event) {
 
         card.innerHTML = `
         <div class="col">
-            <div class="head">
-                <p class="card-heading">${name}</p> 
-                <p class="card-heading">${job}</p>
+            <div class="col1">
+                <div class="head">
+                    <p class="card-heading">${name}</p> 
+                    <p class="card-heading">${job}</p>
+                </div>
+                <div class="hasil">
+                    <p class="card-heading">${address}</p>
+                </div>
             </div>
-            <div class="hasil">
-                <p class="card-heading">${address}</p>
-            </div>
-        </div>
+        </div>    
         `;
     document.body.appendChild(card)
 }
